@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card {
+    margin-top: 30px;
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    margin:10px auto 5px;
+    background-color: #333;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid #111010;
+    box-shadow: 0 0 40px #111111;
+    padding: 20px 35px;
+}
+
+.card *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.card h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.card h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.custom-select-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-select {
+    margin-left: 10px;
+    height: 25px;
+    width: 150px;
+    left: 50%;
+}
+
+.custom-label {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+   }
+   
+.pagination a {
+    cursor: default;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+   }
+   
+.pagination li:not(.disabled) a:hover {
+    background-color: #1f1f1f;
+    cursor: pointer;
+   }
+   
+.pagination li a {
+    font-weight: bold;
+   }
+   
+.pagination li.active a {
+    background: #696969;
+   }
+   
+.pagination li.disabled a {
+    pointer-events: none;
+    color: #fff;
+    border: 1px solid #fff;
+   }

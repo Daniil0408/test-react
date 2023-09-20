@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-edit {
+    margin-top: 30px;
+    height: 1020px;
+    width: 1000px;
+    position: relative;
+    margin:10px auto 5px;
+    background-color: #333;
+    border-radius: 10px;
+    border: 2px solid #111010;
+    box-shadow: 0 0 40px #111111;
+    padding: 20px 35px;
+}
+
+.form-edit *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.form-edit h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+.form-edit h4 {
+    margin-top: 20px;
+}
+
+.form-edit label {
+    margin-top: 20px;
+}
+
+.button-delete {
+    float: right;
+    background-color: #080710;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-cancel {
+    float: left;
+    background-color: #080710;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-form-edit{
+    margin-top: 30px;
+    width: 30%;
+    background-color: #080710;
+    color: #ffffff;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: #a80000;
+}

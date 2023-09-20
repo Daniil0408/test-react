@@ -1,0 +1,44 @@
+.menu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    width: 40%;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    padding: 15px, 500px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.left {
+    margin-left: 10px;
+    float: left;
+}
+
+li a {
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1f1f1f;
+}
+
+.right {
+    margin-right: 10px;
+    float: right;
+}
